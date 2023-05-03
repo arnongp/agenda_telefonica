@@ -8,10 +8,44 @@
     <title>Agenda Telefônica</title>
   </head>
   <body>
-    <header>
+    <header class="container">
       <img src="images/logoAgenda.png" alt="logo agenda telefônica" />
       <h1>AGENDA TELEFÔNICA</h1>
     </header>
+    <div class="container">
+      <form action="" id="form-agenda">
+        <input
+          type="text"
+          id="nome-contato"
+          required
+          placeholder="Nome do contato"
+        />
+        <input
+          type="number"
+          id="numero-contato"
+          required
+          placeholder="Número do contato"
+        />
+        <button type="submit">REGISTRAR</button>
+      </form>
+      <table cellspacing="0" class="container">
+        <thead>
+          <tr>
+            <th>
+              <img src="images/contato.png" alt="icone contato" /> Nome do
+              Contato
+            </th>
+            <th>
+              <img src="images/phone.png" alt="icone telefone" /> Número do
+              Contato
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr></tr>
+        </tbody>
+      </table>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
